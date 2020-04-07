@@ -1,0 +1,67 @@
+Two ways to move a <div> around on the page
+    - You can specify whether you want the element positioned relative
+      to its natural position in the page or absolute based on its parent element.
+    - Absolute units: [cm, mm, in, px, pt, pc]
+    - Relative units: [em, ex, ch, rem, vw, vh, vmin, vmax, %]
+    - You can use top: and left: to position an element along with the position: attribute
+        * Move left- use a negative value for left:
+        * Move right- use a positive value for left:
+        * Move up- use a negative value for top:
+        * Move down- use a positive value for top:
+
+Stick a <div> to the bottom of the page
+    LINK: https://www.geeksforgeeks.org/how-to-position-a-div-at-the-bottom-of-its-container-using-css/
+    - Set the position of div at the bottom of its container can be done using bottom, 
+      and position property. Set position value to absolute and bottom value to zero 
+      to placed a div at the bottom of container.
+        * .example_div {
+            position: absolute;
+            bottom: 0px;
+          }
+
+Identify the background color of an existing webpage
+    LINK: https://webmasters.stackexchange.com/questions/77665/how-can-i-determine-the-background-color-of-a-site
+    - Right click with your mouse on the web page and then click "Inspepct Element"
+      Then look to the right under the "Styles" tab, then find the background color for
+      the site.
+        * .site {
+            background-color: #f8f3ef;
+          }
+        * This is just an example, the class maybe labled something other than
+          .site depending on the developer. 
+
+Grab the URL for an image from an existing webpage
+    LINK: https://support.google.com/websearch/answer/118238?co=GENIE.Platform%3DDesktop&hl=en
+    - Right-click on the image
+    - Depending on the brower:
+        * Chrome: Copy image address
+        * Safari: Copy image address
+        * IE: Properties > Copy the URL address shown
+        * Firefox: Copy image location 
+
+Center an element horizontally
+    LINK: https://www.w3schools.com/css/css_align.asp
+    - Text:
+        * Use text-align: center;
+    - Image:
+        * display: block;
+        * margin-left: auto;
+        * margin-right: auto;
+
+Identify three ways you can include your CSS styles in a page
+    1. Inline by using the style= attribute
+    2. Internal by using the <style> tag inside the <head> element
+    3. External by using the <link> tag inside the <head> element while
+       specifying the path to your stylesheet. 
+
+Understand how to use classes and ids to target CSS at specific elements on the page
+    - A class is specified by .class-name and then selecting that class in the element
+      using the class="class-name" attribute.
+    - An id is specified by using #id-name and then selecting that id in the element
+      using the id="id-name" attribute.
+        * id's are more specific than a class and will override the styles of the class
+        * id's should only be used for one element in a document. 
+
+Build a very basic form (even if it doesn’t “go” anywhere)
+    See the form built in this repository
+    
