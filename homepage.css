@@ -47,6 +47,10 @@ hr {
     width: 100%;
 }
 
+#results-page {
+    display: flex;
+    flex-direction: row;
+}
 .search-results {
     margin-left: 150px;
     width: 650px;
@@ -78,6 +82,36 @@ p {
 }
 
 .sub-container {
-    display: flex;
     width: 50%;
+}
+
+.sub-container p {
+    width: 200px;
+}
+
+#also-search {
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #b3b3b3;
+}
+
+#also-search h2,h3 {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#knowledge-panel {
+    height: 650px;
+    width: 30%;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#top-level-info{
+
 }
